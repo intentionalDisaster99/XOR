@@ -25,14 +25,19 @@ Knowing how the canvas is drawn, with true to the left and right, here are a few
   If you want to recreate these examples, you can simply change the `trainingData` object in `Sketch.js` to match the new gate.
 
 Here we have the AND gate:
-![Image of the project output when configured to train on an AND gate. It looks like a big white square with a black triangle in the bottom right](assets/pictures/AND Output Example.png)
+
+![Image of the project output when configured to train on an AND gate. It looks like a big black square with a white triangle in the bottom right](assets/pictures/ANDOutputExample.png)
+
 As you can see, the black\(being false) and the white\(being true) could be separated by a simple straight line.
 
-It is the same for the OR gate:
-**PUT THE OR IMAGE HERE**
+It's the same for the OR gate:
 
+![Image of the project output when configured to train on an OR gate. It looks like a big white square with a black triangle in the top right](assets/pictures/OROutputExample.png)
+to
 However, with the XOR gate, it's different:
-**PUT THE XOR IMAGE HERE**
+
+![Image of the project output when configured to train on an XOR gate. It looks like a big black square with a white triangle in the top right and bottom left](assets/pictures/XOROutputExample.png)
+
 The XOR gate needs two lines to correctly define the cavas. That means we can't do it with a simple linear approximator, like a perceptron[^3]
 [^3] Another project I made following along with Coding Train.
 
