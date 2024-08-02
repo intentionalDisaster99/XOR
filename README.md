@@ -33,13 +33,13 @@ As you can see, the black\(being false) and the white\(being true) could be sepa
 It's the same for the OR gate:
 
 ![Image of the project output when configured to train on an OR gate. It looks like a big white square with a black triangle in the top right](assets/pictures/OROutputExample.png)
-to
+
 However, with the XOR gate, it's different:
 
 ![Image of the project output when configured to train on an XOR gate. It looks like a big black square with a white triangle in the top right and bottom left](assets/pictures/XOROutputExample.png)
 
 The XOR gate needs two lines to correctly define the cavas. That means we can't do it with a simple linear approximator, like a perceptron[^3]
-[^3] Another project I made following along with Coding Train.
+[^3]: Another project I made following along with Coding Train.
 
 ## I WANNA USE IT
 Okay, nice! I've hooked ya!
