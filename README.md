@@ -25,7 +25,7 @@ Knowing how the canvas is drawn, with true to the left and right, here are a few
   If you want to recreate these examples, you can simply change the `trainingData` object in `Sketch.js` to match the new gate.
 
 Here we have the AND gate:
-**PUT THE AND IMAGE HERE**
+![Image of the project output when configured to train on an AND gate. It looks like a big white square with a black triangle in the bottom right](assets/pictures/AND Output Example.png)
 As you can see, the black\(being false) and the white\(being true) could be separated by a simple straight line.
 
 It is the same for the OR gate:
