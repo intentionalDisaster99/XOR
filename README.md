@@ -73,7 +73,7 @@ Then, under, `index.html` you will need to change the line `<script src="\p5\p5.
 According to my calculations, you are now ready to run it! What I've been doing is using Visual Studio Code's Live Server extension to host it, though I'm sure there are countless other ways to replicate this effect to be uncovered using a quick Google search.
 
 
-##License
+## License
 Distributed under the MIT License. See LICENSE.txt for more information.
 
 
